@@ -1,0 +1,304 @@
+/* General Styles */
+body {
+    background-color: #f5f3ef; /* Warm neutral background */
+    color: #4a403a; /* Dark brown text color */
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Timeless serif font for headings */
+    color: #3b3a36; /* Darker shade for headings */
+}
+
+/* Center the h1 header and make it burgundy */
+h1 {
+    color: #800020; /* Burgundy color */
+    text-align: center; /* Center the text */
+    margin-left: 0; /* Remove left margin to ensure centering */
+}
+
+/* Links */
+a {
+    color: #b5651d; /* Terracotta accent color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #da8e3c; /* Lighter terracotta for hover */
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    background-color: #b5651d; /* Terracotta background */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #da8e3c; /* Lighter terracotta on hover */
+    cursor: pointer;
+}
+
+/* Image Gallery Styling */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Evenly space out images */
+    margin-top: 20px;
+    gap: 0; /* Remove gap between images */
+}
+
+.image-container {
+    flex: 1; /* Make all image containers equal width */
+    text-align: center;
+    margin: 0; /* Remove any margin */
+}
+
+.image-container img {
+    width: 100%; /* Full width within the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Remove any maximum width to ensure they touch */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #4a403a;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #3b3a36; /* Darker background for navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #f5f3ef !important; /* Light text color for navbar */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #da8e3c !important; /* Accent color on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    border-top: 1px solid #d1cbc3; /* Subtle border for section dividers */
+}
+
+/* Footer */
+footer {
+    background-color: #3b3a36;
+    color: #f5f3ef;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Add left margin to the entire container */
+.container {
+    margin-left: 80px; /* Smaller margin for better alignment */
+}
+
+/* Apply margin specifically to other headings (not h1) */
+h2, h3 {
+    margin-left: 80px; /* Add a consistent left margin to these headings */
+}
+
+ul, ol {
+    margin-left: 80px; /* Add left margin to lists */
+}
+
+/* Image Gallery Styling */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Evenly space out images */
+    margin-top: 20px;
+    gap: 0; /* Remove gap between images */
+}
+
+.image-container {
+    flex: 1; /* Make all image containers equal width */
+    text-align: center;
+    margin: 0; /* Remove any margin */
+}
+
+.image-container img {
+    width: 100%; /* Full width within the container */
+    height: 400px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #4a403a;
+    margin-top: 5px;
+}
+
+/* General Styles */
+body {
+    background-color: #f5f3ef; /* Warm neutral background */
+    color: #4a403a; /* Dark brown text color */
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Timeless serif font for headings */
+    color: #3b3a36; /* Darker shade for headings */
+}
+
+/* Center the h1 header and make it burgundy */
+h1 {
+    color: #800020; /* Burgundy color */
+    text-align: center; /* Center the text */
+    margin-left: 0; /* Remove left margin to ensure centering */
+}
+
+/* Links */
+a {
+    color: #b5651d; /* Terracotta accent color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #da8e3c; /* Lighter terracotta for hover */
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    background-color: #b5651d; /* Terracotta background */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #da8e3c; /* Lighter terracotta on hover */
+    cursor: pointer;
+}
+
+/* Image Gallery Styling */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Evenly space out images */
+    margin-top: 20px;
+    gap: 0; /* Remove gap between images */
+}
+
+.image-container {
+    flex: 1; /* Make all image containers equal width */
+    text-align: center;
+    margin: 0; /* Remove any margin */
+}
+
+.image-container img {
+    width: 100%; /* Full width within the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Remove any maximum width to ensure they touch */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #4a403a;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #3b3a36; /* Darker background for navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #f5f3ef !important; /* Light text color for navbar */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #da8e3c !important; /* Accent color on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    border-top: 1px solid #d1cbc3; /* Subtle border for section dividers */
+}
+
+/* Footer */
+footer {
+    background-color: #3b3a36;
+    color: #f5f3ef;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Add left margin to the entire container */
+.container {
+    margin-left: 80px; /* Smaller margin for better alignment */
+}
+
+/* Apply margin specifically to other headings (not h1) */
+h2, h3 {
+    margin-left: 80px; /* Add a consistent left margin to these headings */
+}
+
+ul, ol {
+    margin-left: 80px; /* Add left margin to lists */
+}
+
+/* Image Gallery Styling */
+.image-gallery {
+    display: flex;
+    justify-content: space-between; /* Evenly space out images */
+    margin-top: 20px;
+    gap: 0; /* Remove gap between images */
+}
+
+.image-container {
+    flex: 1; /* Make all image containers equal width */
+    text-align: center;
+    margin: 0; /* Remove any margin */
+}
+
+.image-container img {
+    width: 100%; /* Full width within the container */
+    height: 400px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #4a403a;
+    margin-top: 5px;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    width: 100%; /* Make it responsive */
+    max-width: 560px; /* Limit the maximum width */
+    aspect-ratio: 16 / 9; /* Ensure the correct aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.video-intro {
+    font-weight: normal; /* Remove bold */
+    margin-left: 80px; /* Match the margin of the line above */
+}
+
+.video-intro {
+    font-weight: normal; /* Remove bold */
+    margin-left: 80px; /* Match the margin of the line above */
+}
+
