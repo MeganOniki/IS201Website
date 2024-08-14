@@ -10835,3 +10835,9 @@ textarea.form-control-lg {
   margin-left: 20px; /* Adjust this value to your liking */
   margin-right: 20px; /* Optional: Add right margin as well */
 }
+.bg-image-full {
+    background-image: url('walking.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
