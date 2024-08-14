@@ -10841,3 +10841,6 @@ textarea.form-control-lg {
     background-position: center;
     height: 100%;
 }
+.text-indented {
+    margin-left: 20px;
+}
